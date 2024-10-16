@@ -1,3 +1,15 @@
+# [2.0.0](https://github.com/Robitch/Open-Day/compare/v1.0.0...v2.0.0) (2024-10-16)
+
+
+### Features
+
+* ajout d'une nouvelle fonctionnalité ([348d7c4](https://github.com/Robitch/Open-Day/commit/348d7c4bddfb96ce9b98ceabe26ef9e371e7c878))
+
+
+### BREAKING CHANGES
+
+* cette modification introduit une incompatibilité majeure
+
 # 1.0.0 (2024-10-16)
 
 
