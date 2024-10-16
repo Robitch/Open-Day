@@ -21,4 +21,6 @@ jobs:
         run: npm install
 
       - name: Run Semantic-release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }} # Ajoute cette ligne pour définir le token
         run: npx semantic-release
