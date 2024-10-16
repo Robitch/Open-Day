@@ -26,6 +26,12 @@ app.get('/division', (req, res) => {
   res.send(`The quotient is ${quotient}`);
 });
 
+app.get('/modulus', (req, res) => {
+  const { a, b } = req.query;
+  const remainder = parseFloat(a) % parseFloat(b);
+  res.send(`The remainder is ${remainder}`);
+});
+
 app.listen(port, () => {
   console.log(`App listening at http://localhost:${port}`);
 });
