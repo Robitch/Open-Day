@@ -23,4 +23,5 @@ jobs:
       - name: Run Semantic-release
         env:
           GITHUB_TOKEN: ${{ vars.GH_TOKEN }} # Ajoute cette ligne pour définir le token
+          NPM_TOKEN: ${{ vars.NPM_TOKEN }} # Ajoute cette ligne pour définir le token
         run: npx semantic-release
