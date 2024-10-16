@@ -20,6 +20,12 @@ app.get('/multiplication', (req, res) => {
   res.send(`The product is ${product}`);
 });
 
+app.get('/division', (req, res) => {
+  const { a, b } = req.query;
+  const quotient = parseFloat(a) / parseFloat(b);
+  res.send(`The quotient is ${quotient}`);
+});
+
 app.listen(port, () => {
   console.log(`App listening at http://localhost:${port}`);
 });
