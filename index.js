@@ -14,6 +14,12 @@ app.get('/subtraction', (req, res) => {
   res.send(`The difference is ${difference}`);
 });
 
+app.get('/multiplication', (req, res) => {
+  const { a, b } = req.query;
+  const product = parseFloat(a) * parseFloat(b);
+  res.send(`The product is ${product}`);
+});
+
 app.listen(port, () => {
   console.log(`App listening at http://localhost:${port}`);
 });
