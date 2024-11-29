@@ -1,3 +1,10 @@
+## [2.0.1](https://github.com/Robitch/Open-Day/compare/v2.0.0...v2.0.1) (2024-11-29)
+
+
+### Bug Fixes
+
+* traduction des libéllés en français ([c66dd6b](https://github.com/Robitch/Open-Day/commit/c66dd6b315f9a43b8f4d9843116446b6a9a0faa8))
+
 # [2.0.0](https://github.com/Robitch/Open-Day/compare/v1.0.0...v2.0.0) (2024-10-16)
 
 
