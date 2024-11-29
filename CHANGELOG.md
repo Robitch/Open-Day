@@ -1,3 +1,16 @@
+# [2.2.0](https://github.com/Robitch/Open-Day/compare/v2.1.0...v2.2.0) (2024-11-29)
+
+
+### Bug Fixes
+
+* activer le NPM_TOKEN dans le workflow de release ([8ae9623](https://github.com/Robitch/Open-Day/commit/8ae9623c767f51da8c7350bbe17eb7e94fa4e5a4))
+
+
+### Features
+
+* add renovate workflow ([783ac2a](https://github.com/Robitch/Open-Day/commit/783ac2a77f5a985b7e046a1f1cca8031bddab472))
+* jsp ([772cc31](https://github.com/Robitch/Open-Day/commit/772cc310c68c0b780c1eb234cce8fc1775be1632))
+
 # [2.1.0](https://github.com/Robitch/Open-Day/compare/v2.0.1...v2.1.0) (2024-11-29)
 
 
