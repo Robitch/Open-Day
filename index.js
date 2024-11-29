@@ -37,6 +37,13 @@ app.get('/modulus', (req, res) => {
   res.send(`Le reste de la division de ${a} par ${b} est égale à ${remainder}`);
 });
 
+app.get('/power', (req, res) => {
+  const { a, b } = req.query;
+  const power = Math.pow(parseFloat(a), parseFloat(b));
+  // res.send(`The power is ${power}`);
+  res.send(`${a} à la puissance ${b} est égale à ${power}`);
+});
+
 app.listen(port, () => {
   console.log(`App listening at http://localhost:${port}`);
 });
