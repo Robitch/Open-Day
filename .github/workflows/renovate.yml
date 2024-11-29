@@ -1,18 +1,23 @@
-name: Renovate
+name: Renovate Workflow
 
 on:
-  workflow_dispatch: # Permet un déclenchement manuel
+  push:
+    branches:
+      - main
+  pull_request:
+  workflow_dispatch:
   schedule:
-    - cron: "*/5 * * * *" # Exécution toutes les 5 minutes
+    - cron: "*/5 * * * *"
 
 jobs:
   renovate:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout code
+      - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Install Renovate
-        run: npx renovate
-        env:
-          GITHUB_TOKEN: ${{ vars.GH_TOKEN }} # Injecte le secret ici
+      - name: Run Renovate
+        uses: renovatebot/github-action@v41.0.3
+        with:
+          token: ${{ vars.GH_TOKEN }}
