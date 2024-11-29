@@ -1,3 +1,10 @@
+# [2.1.0](https://github.com/Robitch/Open-Day/compare/v2.0.1...v2.1.0) (2024-11-29)
+
+
+### Features
+
+* ajout de l'endpoint pour calculer la puissance ([2f68706](https://github.com/Robitch/Open-Day/commit/2f68706a0f61550faccfca8cc6c97936640e00f7))
+
 ## [2.0.1](https://github.com/Robitch/Open-Day/compare/v2.0.0...v2.0.1) (2024-11-29)
 
 
