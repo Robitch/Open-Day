@@ -1,3 +1,10 @@
+## [2.3.1](https://github.com/Robitch/Open-Day/compare/v2.3.0...v2.3.1) (2024-11-29)
+
+
+### Bug Fixes
+
+* update Renovate configuration to include specific repository ([fa76a82](https://github.com/Robitch/Open-Day/commit/fa76a82f5e9c1a74e98d0ebf1c715735f932b241))
+
 # [2.3.0](https://github.com/Robitch/Open-Day/compare/v2.2.0...v2.3.0) (2024-11-29)
 
 
