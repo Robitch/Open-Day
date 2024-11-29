@@ -1,3 +1,10 @@
+# [2.3.0](https://github.com/Robitch/Open-Day/compare/v2.2.0...v2.3.0) (2024-11-29)
+
+
+### Features
+
+* update Renovate workflow to trigger on push and pull request events ([262fcff](https://github.com/Robitch/Open-Day/commit/262fcffcdfbb80b4eb355557b8cc0da06520ccb6))
+
 # [2.2.0](https://github.com/Robitch/Open-Day/compare/v2.1.0...v2.2.0) (2024-11-29)
 
 
